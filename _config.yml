@@ -23,7 +23,7 @@ resume_contact_address:         "CS Department, University of Virginia"
 resume_header_contact_info:     "University of Virginia  •  571-278-5833  •  acf7ea@virginia.edu"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>I am a Ph.D. student in <a href='https://ds2-lab.github.io/team/'>DS2 Lab</a> at <a href='https://www.virginia.edu/'>University of Virginia</a>, where I am advised by <a href='https://tddg.github.io/'>Prof. Yue Cheng</a>. </p> <p>My research interests fucos on federated learning, serverless computing and hight performance computing. Currentlly, I am working on improving the efficiency, privacy, and security of federated learning systems by exploiting ML and data compression approaches.</p>"
+resume_header_intro: "<p>I am a Ph.D. student in <a href='https://ds2-lab.github.io/'>DS2 Lab</a> at <a href='https://www.virginia.edu/'>University of Virginia</a>, where I am advised by <a href='https://tddg.github.io/'>Prof. Yue Cheng</a>. </p> <p>My research interests fucos on federated learning, serverless computing and hight performance computing. Currentlly, I am working on improving the efficiency, privacy, and security of federated learning systems by exploiting ML and data compression approaches.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
