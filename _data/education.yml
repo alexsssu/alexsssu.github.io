@@ -3,11 +3,4 @@
   uni: Yale University
   year: 2004 &mdash; 2008
   awards:
-  summary: George Mason University, Ph.D. in Computer Science, 08/2021 - 07/2022(transfer out)
-
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-  summary: China University of Geosciences, M.E. in Computer Technology, 08/2018 - 06/2021
-
+  summary: <ul class="resume-item-list"><li>University of Virginia, Ph.D. in Computer Science, 08/2022 - Present</li><li>George Mason University, Ph.D. in Computer Science, 08/2021 - 07/2022</li><li>China University of Geosciences, M.E. in Computer Technology, 08/2018 - 06/2021</li></ul>
