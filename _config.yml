@@ -17,10 +17,10 @@ resume_title:                   "Home"
 resume_contact_email:           "acf7ea@virginia.edu"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "571-278-5833"
+resume_contact_telephone:       ""
 resume_contact_address:         "CS Department, University of Virginia"
 
-resume_header_contact_info:     "University of Virginia  •  571-278-5833  •  acf7ea@virginia.edu"
+resume_header_contact_info:     "University of Virginia   •   acf7ea@virginia.edu"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>I am a Ph.D. student in <a href='https://ds2-lab.github.io/'>DS2 Lab</a> at <a href='https://www.virginia.edu/'>University of Virginia</a>, where I am advised by <a href='https://tddg.github.io/'>Prof. Yue Cheng</a>. </p> <p>My research interests fucos on federated learning, serverless computing and hight performance computing. Currentlly, I am working on improving the efficiency, privacy, and security of federated learning systems by exploiting ML and data compression approaches.</p>"
