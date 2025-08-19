@@ -75,6 +75,7 @@
       <!-- end Education -->
       {% endif %}
 
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
@@ -93,6 +94,43 @@
 
       </section>
       <!-- end Experience -->
+      {% endif %}
+
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
+      <section class="content-section">
+        <header class="section-header">
+          <h3>Publications</h3>
+        </header>
+
+        <div class="publications">
+          {% for pub in site.data.publications %}
+          <div class="pub-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+            <div class="pub-left">
+              <div class="pub-venue">[{% if pub.venue_short %}{{ pub.venue_short }}{% else %}{{ pub.venue }} {{ pub.year }}{% endif %}]</div>
+              {% if pub.status %}<div class="pub-status">{{ pub.status }}</div>{% endif %}
+            </div>
+            <div class="pub-right">
+              <div class="pub-title">{{ pub.title }}</div>
+              {% if pub.notes %}<div class="pub-notes">({{ pub.notes }})</div>{% endif %}
+              <div class="pub-authors">
+                {% if pub.authors %}
+                  {% for a in pub.authors %}
+                    {% if a.me %}<b>{{ a.name }}</b>{% else %}{{ a.name }}{% endif %}{% if forloop.last == false %}, {% endif %}
+                  {% endfor %}.
+                {% endif %}
+              </div>
+              <div class="pub-links">
+                {% if pub.pdf %}<a href="{{ pub.pdf }}">PDF</a>{% endif %}
+                {% if pub.code %} · <a href="{{ pub.code }}">Code</a>{% endif %}
+                {% if pub.venue_link %} · <a href="{{ pub.venue_link }}">Venue</a>{% endif %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      <!-- end Publications -->
       {% endif %}
 
 

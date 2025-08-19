@@ -176,6 +176,44 @@
   .resume-item-copy { margin: .75rem 0 0; }
 }
 
+/* Publications styles */
+.publications {
+  .pub-item {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    column-gap: 1rem;
+    margin: 1rem 0 1.25rem;
+  }
+
+  .pub-left {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.2rem;
+  }
+  .pub-venue { font-weight: 700; }
+  .pub-status { font-style: italic; }
+
+  .pub-right { min-width: 0; }
+  .pub-title {
+    @include sans_bold;
+    font-size: 1.05rem;
+    line-height: 1.35rem;
+  }
+  .pub-notes {
+    font-style: italic;
+    color: #666;
+    margin-top: .1rem;
+  }
+  .pub-authors { margin-top: .25rem; line-height: 1.35rem; }
+  .pub-links { margin-top: .2rem; }
+  .pub-links a { border-bottom: 1px solid; text-decoration: none; }
+  .pub-links a:hover { border-bottom: none; color: #9c9c9c; }
+}
+
+@media print {
+  .publications .pub-item { margin: .5rem 0 .7rem; }
+  .publications .pub-title { font-size: 1rem; line-height: 1.2rem; }
+}
 
 // footer styles
 .page-footer {

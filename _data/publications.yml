@@ -1,0 +1,102 @@
+# Publications data
+# Use authors array to highlight your name with me: true
+
+- venue_short: "NeurIPS ’25"
+  status: "Under Review"
+  title: "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Layer Swapping and KV Cache Resizing."
+  year: 2025
+  authors:
+    - { name: "Zhaoyuan Su", me: true }
+    - { name: "Tingfeng Lan" }
+    - { name: "Zirui Wang" }
+    - { name: "Juncheng Yang" }
+    - { name: "Yue Cheng" }
+  # notes: "Paper in submission."
+  # venue_link: "https://neurips.cc/"
+  pdf: "https://www.arxiv.org/pdf/2506.02006"
+  # code: ""
+
+- venue_short: "EuroSys ’26"
+  status: "Under Review"
+  title: "λScale: Enabling Fast Scaling for Serverless Large Language Model Inference."
+  year: 2026
+  authors:
+    - { name: "Minchen Yu" }
+    - { name: "Rui Yang" }
+    - { name: "Chaobo Jia" }
+    - { name: "Zhaoyuan Su", me: true }
+    - { name: "Sheng Yao" }
+    - { name: "Tingfeng Lan" }
+    - { name: "Yuchen Yang" }
+    - { name: "Zirui Wang" }
+    - { name: "Yue Cheng" }
+    - { name: "Wei Wang" }
+    - { name: "Ao Wang" }
+    - { name: "Ruichuan Chen" }
+  # notes: "Paper in submission."
+  # venue_link: "https://2026.eurosys.org/"
+  pdf: "https://www.arxiv.org/pdf/2502.09922"
+  # code: ""
+
+
+- venue_short: "EuroSys ’26"
+  status: "Under Review"
+  title: "ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates."
+  year: 2026
+  authors:
+    - { name: "Tingfeng Lan" }
+    - { name: "Yusen Wu" }
+    - { name: "Bin Ma" }
+    - { name: "Zhaoyuan Su", me: true }
+    - { name: "Rui Yang" }
+    - { name: "Tekin Bicer" }
+    - { name: "Dong Li" }
+    - { name: "Yue Cheng" }
+  # notes: "Paper in submission."
+  affiliation: "Samsung Semiconductor, Inc., UVA, UMN"
+  pdf: "https://www.arxiv.org/pdf/2505.12242v1"
+  # code: ""
+  # venue_link: ""
+
+- venue_short: "NSDI ’26"
+  title: "Towards Efficient LLM Storage Reduction via Tensor Deduplication and Delta Compression."
+  year: 2026
+  authors:
+    - { name: "Zirui Wang" }
+    - { name: "Tingfeng Lan" }
+    - { name: "Zhaoyuan Su", me: true }
+    - { name: "Juncheng Yang" }
+    - { name: "Yue Cheng" }
+  notes: "The 23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI’26)."
+  pdf: "https://arxiv.org/pdf/2505.06252"
+  # code: ""
+  # venue_link: ""
+
+- venue_short: "VLDB ’24"
+  title: "Everything You Always Wanted to Know About Storage Compressibility of Pre-Trained ML Models but Were Afraid to Ask."
+  year: 2024
+  authors:
+    - { name: "Zhaoyuan Su", me: true }
+    - { name: "Ammar Ahmed" }
+    - { name: "Zirui Wang" }
+    - { name: "Ali Anwar" }
+    - { name: "Yue Cheng" }
+  notes: "50th International Conference on Very Large Data Bases (VLDB’24)."
+  pdf: "https://www.vldb.org/pvldb/vol17/p2036-su.pdf"
+  # code: ""
+  # venue_link: ""
+
+- venue_short: "DRBSD ’22"
+  title: "Understanding Impact of Lossy Compression on Derivative-related Metrics in Scientific Datasets."
+  year: 2022
+  authors:
+    - { name: "Zhaoyuan Su", me: true }
+    - { name: "Sheng Di" }
+    - { name: "Ali Murat Gok" }
+    - { name: "Yue Cheng" }
+    - { name: "Franck Cappello" }
+  notes: "The 8th International Workshop on Data Analysis and Reduction for Big Scientific Data (DRBSD’22), affiliated with SC’22."
+  pdf: "https://ieeexplore.ieee.org/document/10025499"
+  # code: ""
+  # venue_link: ""
+
