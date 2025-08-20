@@ -1,8 +1,9 @@
 # Publications data
 # Use authors array to highlight your name with me: true
 
-- venue_short: "NeurIPS ’25"
-  status: "Under Review"
+- venue_short: "arXiv Preprint"
+# - venue_short: "NeurIPS ’25"
+  # status: "Under Review"
   title: "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Layer Swapping and KV Cache Resizing."
   year: 2025
   authors:
@@ -16,8 +17,9 @@
   pdf: "https://www.arxiv.org/pdf/2506.02006"
   # code: ""
 
-- venue_short: "EuroSys ’26"
-  status: "Under Review"
+- venue_short: "arXiv Preprint"
+# - venue_short: "EuroSys ’26"
+  # status: "Under Review"
   title: "λScale: Enabling Fast Scaling for Serverless Large Language Model Inference."
   year: 2026
   authors:
@@ -38,9 +40,9 @@
   pdf: "https://www.arxiv.org/pdf/2502.09922"
   # code: ""
 
-
-- venue_short: "EuroSys ’26"
-  status: "Under Review"
+- venue_short: "arXiv Preprint"
+# - venue_short: "EuroSys ’26"
+  # status: "Under Review"
   title: "ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates."
   year: 2026
   authors:
@@ -53,7 +55,6 @@
     - { name: "Dong Li" }
     - { name: "Yue Cheng" }
   # notes: "Paper in submission."
-  affiliation: "Samsung Semiconductor, Inc., UVA, UMN"
   pdf: "https://www.arxiv.org/pdf/2505.12242v1"
   # code: ""
   # venue_link: ""
