@@ -1,5 +1,5 @@
 # Site settings
-title: "Zhaoyuan Su's Resume Template"
+title: "Zhaoyuan Su's Website"
 description: "Zhaoyuan Su's GitHub Pages sites."
 
 # Build settings
@@ -23,7 +23,7 @@ resume_contact_address:         "CS Department, University of Virginia"
 resume_header_contact_info:     "University of Virginia • acf7ea@virginia.edu"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>I am a fifth-year Ph.D. student in the <a href='https://ds2-lab.github.io/'>DS2 Lab</a> at the <a href='https://www.virginia.edu/'>University of Virginia</a>, where I am advised by <a href='https://tddg.github.io/'>Prof. Yue Cheng</a>, working on LLM systems and systems for LLMs. I have also been working closely with <a href='https://junchengyang.com/'>Prof. Juncheng Yang</a> at Harvard University on LLM serving systems. </p> <p>My research focuses on building <b>efficient</b> and <b>adaptive LLM systems</b>, leveraging <b>data-driven</b>, <b>reduction</b>, and <b>compression techniques</b> to enhance performance, scalability, and reliability of <b>LLM inference</b>, <b>storage</b>, and <b>deployment</b> at scale.</p>"
+resume_header_intro: "<p>I am a last-year Ph.D. student in the <a href='https://ds2-lab.github.io/'>DS2 Lab</a> at the <a href='https://www.virginia.edu/'>University of Virginia</a>, where I am advised by <a href='https://tddg.github.io/'>Prof. Yue Cheng</a>, working on LLM systems and systems for LLMs. I have also been working closely with <a href='https://junchengyang.com/'>Prof. Juncheng Yang</a> at Harvard University on LLM serving systems. </p> <p>My research focuses on building <b>efficient and adaptive LLM systems</b>, leveraging <b>data-driven, reduction, and compression techniques</b> to enhance <b>performance, scalability, and reliability</b> of <b>LLM inference, storage, and deployment</b> at scale.</p>"
 
 
 # use "yes" to display the email contact button,
@@ -41,7 +41,8 @@ resume_section_publications:    true
 #resume_section_skills:          true
 #resume_section_recognition:     true
 #resume_section_links:           true
-#resume_section_associations:    true
+# resume_section_associations:    true
+resume_section_professional_service:    true
 # resume_section_interests:       true
 
 

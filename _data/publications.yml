@@ -1,15 +1,17 @@
 # Publications data
 # Use authors array to highlight your name with me: true
 
-- venue_short: "arXiv Preprint"
+- venue_short: "MLSys ’26"
 # - venue_short: "NeurIPS ’25"
   # status: "Under Review"
   title: "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Layer Swapping and KV Cache Resizing."
   year: 2025
   authors:
     - { name: "Zhaoyuan Su", me: true }
+    - { name: "Zeyu Zhang" }
     - { name: "Tingfeng Lan" }
     - { name: "Zirui Wang" }
+    - { name: "Haiying Shen" }
     - { name: "Juncheng Yang" }
     - { name: "Yue Cheng" }
   # notes: "Paper in submission."
@@ -17,7 +19,7 @@
   pdf: "https://www.arxiv.org/pdf/2506.02006"
   # code: ""
 
-- venue_short: "arXiv Preprint"
+- venue_short: "MLSys ’26"
 # - venue_short: "EuroSys ’26"
   # status: "Under Review"
   title: "λScale: Enabling Fast Scaling for Serverless Large Language Model Inference."
