@@ -49,10 +49,12 @@
     - { name: "Zhaoyuan Su", me: true }
     - { name: "Rui Yang" }
     - { name: "Tekin Bicer" }
+    - { name: "Masahiro Tanaka" }
+    - { name: "Olatunji Ruwase" }
     - { name: "Dong Li" }
     - { name: "Yue Cheng" }
   # notes: "Paper in submission."
-  pdf: "https://www.arxiv.org/pdf/2505.12242v1"
+  pdf: "https://arxiv.org/pdf/2505.12242"
   # code: ""
   # venue_link: ""
 
