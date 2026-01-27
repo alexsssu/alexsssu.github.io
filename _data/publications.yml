@@ -2,9 +2,7 @@
 # Use authors array to highlight your name with me: true
 
 - venue_short: "MLSys ’26"
-# - venue_short: "NeurIPS ’25"
-  # status: "Under Review"
-  title: "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Layer Swapping and KV Cache Resizing."
+  title: "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Quantized Layer Swapping and KV Cache Resizing."
   year: 2025
   authors:
     - { name: "Zhaoyuan Su", me: true }
@@ -14,14 +12,12 @@
     - { name: "Haiying Shen" }
     - { name: "Juncheng Yang" }
     - { name: "Yue Cheng" }
-  # notes: "Paper in submission."
+  notes: "Ninth Annual Conference on Machine Learning and Systems (MLSys’26)."
   # venue_link: "https://neurips.cc/"
   pdf: "https://www.arxiv.org/pdf/2506.02006"
   # code: ""
 
 - venue_short: "MLSys ’26"
-# - venue_short: "EuroSys ’26"
-  # status: "Under Review"
   title: "λScale: Enabling Fast Scaling for Serverless Large Language Model Inference."
   year: 2026
   authors:
@@ -37,8 +33,7 @@
     - { name: "Wei Wang" }
     - { name: "Ao Wang" }
     - { name: "Ruichuan Chen" }
-  # notes: "Paper in submission."
-  # venue_link: "https://2026.eurosys.org/"
+  notes: "Tenth Annual Conference on Machine Learning and Systems (MLSys’26)."
   pdf: "https://www.arxiv.org/pdf/2502.09922"
   # code: ""
 
