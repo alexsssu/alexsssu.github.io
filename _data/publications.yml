@@ -1,6 +1,46 @@
 # Publications data
 # Use authors array to highlight your name with me: true
 
+- venue_short: "arXiv Preprint"
+# - venue_short: "EuroSys ’26"
+  # status: "Under Review"
+  title: "MoE-Prefill: Zero Redundancy Overheads in MoE Prefill Serving."
+  year: 2026
+  authors:
+    - { name: "Zhaoyuan Su", me: true }
+    - { name: "Olatunji Ruwase" }
+    - { name: "Karthik Ganesan" }
+    - { name: "Aurick Qiao" }
+    - { name: "Samyam Rajbhandari" }
+    - { name: "Juncheng Yang" }
+    - { name: "Yue Cheng" }
+    - { name: "Yuxiong He" }
+  # notes: "Paper in submission."
+  pdf: "https://arxiv.org/abs/2605.02960"
+  # code: ""
+  # venue_link: ""
+
+- venue_short: "arXiv Preprint"
+# - venue_short: "EuroSys ’26"
+  # status: "Under Review"
+  title: "ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates."
+  year: 2026
+  authors:
+    - { name: "Tingfeng Lan" }
+    - { name: "Yusen Wu" }
+    - { name: "Bin Ma" }
+    - { name: "Zhaoyuan Su", me: true }
+    - { name: "Rui Yang" }
+    - { name: "Tekin Bicer" }
+    - { name: "Masahiro Tanaka" }
+    - { name: "Olatunji Ruwase" }
+    - { name: "Dong Li" }
+    - { name: "Yue Cheng" }
+  # notes: "Paper in submission."
+  pdf: "https://arxiv.org/pdf/2505.12242"
+  # code: ""
+  # venue_link: ""
+
 - venue_short: "MLSys ’26"
   title: "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Quantized Layer Swapping and KV Cache Resizing."
   year: 2025
@@ -36,27 +76,6 @@
   notes: "Tenth Annual Conference on Machine Learning and Systems (MLSys’26)."
   pdf: "https://www.arxiv.org/pdf/2502.09922"
   # code: ""
-
-- venue_short: "arXiv Preprint"
-# - venue_short: "EuroSys ’26"
-  # status: "Under Review"
-  title: "ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates."
-  year: 2026
-  authors:
-    - { name: "Tingfeng Lan" }
-    - { name: "Yusen Wu" }
-    - { name: "Bin Ma" }
-    - { name: "Zhaoyuan Su", me: true }
-    - { name: "Rui Yang" }
-    - { name: "Tekin Bicer" }
-    - { name: "Masahiro Tanaka" }
-    - { name: "Olatunji Ruwase" }
-    - { name: "Dong Li" }
-    - { name: "Yue Cheng" }
-  # notes: "Paper in submission."
-  pdf: "https://arxiv.org/pdf/2505.12242"
-  # code: ""
-  # venue_link: ""
 
 - venue_short: "NSDI ’26"
   title: "Towards Efficient LLM Storage Reduction via Tensor Deduplication and Delta Compression."
